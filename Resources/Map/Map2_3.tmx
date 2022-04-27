@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="70" tileheight="70" nextobjectid="11">
+ <tileset firstgid="1" name="Map_desert" tilewidth="70" tileheight="70" tilecount="768">
+  <image source="Image/Map_desert.png" width="3360" height="1120"/>
+ </tileset>
+ <layer name="bgLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxbxMDAsGgUj+IBwgBkcWVB
+  </data>
+ </layer>
+ <layer name="walkLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyrZWJgqKUQy0ExsQCmHll/FyOqmk5G7GwQ6GZE1Y9uNj57kQGyfjkkf0hDMQzA+HJofsVlP3p4YBMjpB+b23Hpx6XHmwmCcZmFzX50vbjMQLafEgwAG2wfvg==
+  </data>
+ </layer>
+ <layer name="bgLayer2" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOiGJE5UcyYmeDQDQafxSMXAAACMkBbA==
+  </data>
+ </layer>
+ <objectgroup name="object0">
+  <object id="1" name="player" x="490" y="420" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object1">
+  <object id="2" name="key" x="70" y="560" width="70" height="70"/>
+  <object id="3" name="exit" x="980" y="560" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object2">
+  <object id="4" name="box_1" x="560" y="70" width="70" height="70"/>
+  <object id="5" name="box_3" x="980" y="210" width="70" height="70"/>
+  <object id="6" name="box_2" x="210" y="350" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="object3">
+  <object id="7" name="mon_2" x="350" y="210" width="70" height="70"/>
+  <object id="8" name="mon_1" x="630" y="560" width="70" height="70"/>
+  <object id="9" name="trap" x="210" y="420" width="70" height="70"/>
+ </objectgroup>
+</map>
